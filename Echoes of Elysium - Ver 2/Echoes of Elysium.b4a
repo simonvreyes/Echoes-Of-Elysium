@@ -1,0 +1,97 @@
+﻿Build1=Default,b4a.example
+File1=AncientModernTales-a7Po.ttf
+File10=storyLayout.bal
+File11=titleLayout.bal
+File12=vlPromptLayout.bal
+File2=archer.jpg
+File3=archer-nobg.jpg
+File4=chooseCharLayout.bal
+File5=firstAreaLayout.bal
+File6=knight.jpg
+File7=knight-nobg.jpg
+File8=mage.jpg
+File9=mage-nobg.jpg
+FileGroup1=Default Group\Font
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup2=Default Group\Images
+FileGroup3=Default Group\Images
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group\Images
+FileGroup7=Default Group\Images
+FileGroup8=Default Group\Images
+FileGroup9=Default Group\Images
+Group=Default Group
+Library1=core
+Library2=xui
+Library3=dialogs
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=chooseChar
+Module2=FirstArea
+Module3=Starter
+Module4=story
+Module5=vlPrompt
+NumberOfFiles=12
+NumberOfLibraries=3
+NumberOfModules=5
+Version=12.8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private xui As XUI
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	Private btnQuit As Button
+	Private btnStart As Button
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("titleLayout")
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Private Sub btnStart_Click
+	StartActivity(vlPrompt)
+End Sub
+
+Private Sub btnQuit_Click
+	ExitApplication
+End Sub
+
+Private Sub Activity_KeyPress (KeyCode As Int) As Boolean 'Return True to consume the event
+	Dim answ As Int
+	If KeyCode = KeyCodes.KEYCODE_BACK Then
+		answ = Msgbox2("Are you sure you want to quit?","WARNING","Yes","","No",Null)
+		If answ = DialogResponse.POSITIVE Then
+			Return False
+		Else
+			Return True
+		End If
+	End If
+End Sub
