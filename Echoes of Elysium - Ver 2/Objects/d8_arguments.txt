@@ -1,0 +1,47 @@
+--release
+--output
+C:\Users\renz\Documents\Echoes of Elysium\Objects
+--lib
+C:\Android\platforms\android-28\android.jar
+C:\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63837448956000\dex_v1\b4ashared.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-core-63837448958000\dex_v1\core.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-xui-63837448958000\dex_v1\xui.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-dialogs-63851955804494\dex_v1\dialogs.zip
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\choosechar$1.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\choosechar$B4AMenuItemsClickListener.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\choosechar$HandleKeyDelayed.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\choosechar$ResumeMessage.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\choosechar$WaitForLayout.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\choosechar.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\firstarea$1.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\firstarea$B4AMenuItemsClickListener.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\firstarea$HandleKeyDelayed.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\firstarea$ResumeMessage.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\firstarea$WaitForLayout.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\firstarea.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\main$1.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\main$B4AMenuItemsClickListener.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\main$HandleKeyDelayed.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\main$ResumeMessage.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\main$WaitForLayout.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\main.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\R$drawable.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\R$style.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\R.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\starter$1.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\starter$2.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\starter$starter_BR.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\starter.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\story$1.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\story$B4AMenuItemsClickListener.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\story$HandleKeyDelayed.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\story$ResumeMessage.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\story$WaitForLayout.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\story.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\vlprompt$1.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\vlprompt$B4AMenuItemsClickListener.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\vlprompt$HandleKeyDelayed.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\vlprompt$ResumableSub_Activity_Create.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\vlprompt$ResumeMessage.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\vlprompt$WaitForLayout.dex
+C:\Users\renz\Documents\Echoes of Elysium\Objects\dexed\b4a\example\vlprompt.dex
